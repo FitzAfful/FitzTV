@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849CAB18293AED400024BF1B /* FitzTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB17293AED400024BF1B /* FitzTVApp.swift */; };
+		849CAB1A293AED400024BF1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB19293AED400024BF1B /* ContentView.swift */; };
+		849CAB1C293AED400024BF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CAB1B293AED400024BF1B /* Assets.xcassets */; };
+		849CAB1F293AED400024BF1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CAB1E293AED400024BF1B /* Preview Assets.xcassets */; };
+		849CAB29293AED400024BF1B /* FitzTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB28293AED400024BF1B /* FitzTVTests.swift */; };
+		849CAB33293AED400024BF1B /* FitzTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB32293AED400024BF1B /* FitzTVUITests.swift */; };
+		849CAB35293AED400024BF1B /* FitzTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB34293AED400024BF1B /* FitzTVUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849CAB25293AED400024BF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849CAB0C293AED400024BF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849CAB13293AED400024BF1B;
+			remoteInfo = FitzTV;
+		};
+		849CAB2F293AED400024BF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849CAB0C293AED400024BF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849CAB13293AED400024BF1B;
+			remoteInfo = FitzTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849CAB14293AED400024BF1B /* FitzTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitzTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CAB17293AED400024BF1B /* FitzTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitzTVApp.swift; sourceTree = "<group>"; };
+		849CAB19293AED400024BF1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		849CAB1B293AED400024BF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849CAB1E293AED400024BF1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		849CAB24293AED400024BF1B /* FitzTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitzTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CAB28293AED400024BF1B /* FitzTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitzTVTests.swift; sourceTree = "<group>"; };
+		849CAB2E293AED400024BF1B /* FitzTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitzTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CAB32293AED400024BF1B /* FitzTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitzTVUITests.swift; sourceTree = "<group>"; };
+		849CAB34293AED400024BF1B /* FitzTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitzTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849CAB11293AED400024BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB21293AED400024BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB2B293AED400024BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849CAB0B293AED400024BF1B = {
+			isa = PBXGroup;
+			children = (
+				849CAB16293AED400024BF1B /* FitzTV */,
+				849CAB27293AED400024BF1B /* FitzTVTests */,
+				849CAB31293AED400024BF1B /* FitzTVUITests */,
+				849CAB15293AED400024BF1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849CAB15293AED400024BF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB14293AED400024BF1B /* FitzTV.app */,
+				849CAB24293AED400024BF1B /* FitzTVTests.xctest */,
+				849CAB2E293AED400024BF1B /* FitzTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849CAB16293AED400024BF1B /* FitzTV */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB17293AED400024BF1B /* FitzTVApp.swift */,
+				849CAB19293AED400024BF1B /* ContentView.swift */,
+				849CAB1B293AED400024BF1B /* Assets.xcassets */,
+				849CAB1D293AED400024BF1B /* Preview Content */,
+			);
+			path = FitzTV;
+			sourceTree = "<group>";
+		};
+		849CAB1D293AED400024BF1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB1E293AED400024BF1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		849CAB27293AED400024BF1B /* FitzTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB28293AED400024BF1B /* FitzTVTests.swift */,
+			);
+			path = FitzTVTests;
+			sourceTree = "<group>";
+		};
+		849CAB31293AED400024BF1B /* FitzTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB32293AED400024BF1B /* FitzTVUITests.swift */,
+				849CAB34293AED400024BF1B /* FitzTVUITestsLaunchTests.swift */,
+			);
+			path = FitzTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849CAB13293AED400024BF1B /* FitzTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CAB38293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTV" */;
+			buildPhases = (
+				849CAB10293AED400024BF1B /* Sources */,
+				849CAB11293AED400024BF1B /* Frameworks */,
+				849CAB12293AED400024BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitzTV;
+			productName = FitzTV;
+			productReference = 849CAB14293AED400024BF1B /* FitzTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849CAB23293AED400024BF1B /* FitzTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CAB3B293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTVTests" */;
+			buildPhases = (
+				849CAB20293AED400024BF1B /* Sources */,
+				849CAB21293AED400024BF1B /* Frameworks */,
+				849CAB22293AED400024BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849CAB26293AED400024BF1B /* PBXTargetDependency */,
+			);
+			name = FitzTVTests;
+			productName = FitzTVTests;
+			productReference = 849CAB24293AED400024BF1B /* FitzTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849CAB2D293AED400024BF1B /* FitzTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CAB3E293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTVUITests" */;
+			buildPhases = (
+				849CAB2A293AED400024BF1B /* Sources */,
+				849CAB2B293AED400024BF1B /* Frameworks */,
+				849CAB2C293AED400024BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849CAB30293AED400024BF1B /* PBXTargetDependency */,
+			);
+			name = FitzTVUITests;
+			productName = FitzTVUITests;
+			productReference = 849CAB2E293AED400024BF1B /* FitzTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849CAB0C293AED400024BF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					849CAB13293AED400024BF1B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					849CAB23293AED400024BF1B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 849CAB13293AED400024BF1B;
+					};
+					849CAB2D293AED400024BF1B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 849CAB13293AED400024BF1B;
+					};
+				};
+			};
+			buildConfigurationList = 849CAB0F293AED400024BF1B /* Build configuration list for PBXProject "FitzTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849CAB0B293AED400024BF1B;
+			productRefGroup = 849CAB15293AED400024BF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849CAB13293AED400024BF1B /* FitzTV */,
+				849CAB23293AED400024BF1B /* FitzTVTests */,
+				849CAB2D293AED400024BF1B /* FitzTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849CAB12293AED400024BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CAB1F293AED400024BF1B /* Preview Assets.xcassets in Resources */,
+				849CAB1C293AED400024BF1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB22293AED400024BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB2C293AED400024BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849CAB10293AED400024BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CAB1A293AED400024BF1B /* ContentView.swift in Sources */,
+				849CAB18293AED400024BF1B /* FitzTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB20293AED400024BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CAB29293AED400024BF1B /* FitzTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CAB2A293AED400024BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CAB33293AED400024BF1B /* FitzTVUITests.swift in Sources */,
+				849CAB35293AED400024BF1B /* FitzTVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849CAB26293AED400024BF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849CAB13293AED400024BF1B /* FitzTV */;
+			targetProxy = 849CAB25293AED400024BF1B /* PBXContainerItemProxy */;
+		};
+		849CAB30293AED400024BF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849CAB13293AED400024BF1B /* FitzTV */;
+			targetProxy = 849CAB2F293AED400024BF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		849CAB36293AED400024BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849CAB37293AED400024BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849CAB39293AED400024BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitzTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849CAB3A293AED400024BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitzTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849CAB3C293AED400024BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitzTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitzTV";
+			};
+			name = Debug;
+		};
+		849CAB3D293AED400024BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitzTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitzTV";
+			};
+			name = Release;
+		};
+		849CAB3F293AED400024BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitzTV;
+			};
+			name = Debug;
+		};
+		849CAB40293AED400024BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.FitzTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitzTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849CAB0F293AED400024BF1B /* Build configuration list for PBXProject "FitzTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CAB36293AED400024BF1B /* Debug */,
+				849CAB37293AED400024BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CAB38293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CAB39293AED400024BF1B /* Debug */,
+				849CAB3A293AED400024BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CAB3B293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CAB3C293AED400024BF1B /* Debug */,
+				849CAB3D293AED400024BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CAB3E293AED400024BF1B /* Build configuration list for PBXNativeTarget "FitzTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CAB3F293AED400024BF1B /* Debug */,
+				849CAB40293AED400024BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849CAB0C293AED400024BF1B /* Project object */;
+}
