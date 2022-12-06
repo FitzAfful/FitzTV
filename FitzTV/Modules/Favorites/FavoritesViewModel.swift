@@ -16,7 +16,7 @@ class FavoritesViewModel: ObservableObject {
 
     func loadData() {
         self.isLoading = true
-        self.shows = favRepo.getAll()
+        self.shows = favRepo.getAll().sorted(by: { $0.name < $1.name })
         self.isLoading = false
     }
 
