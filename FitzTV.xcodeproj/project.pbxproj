@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		849CAB18293AED400024BF1B /* FitzTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB17293AED400024BF1B /* FitzTVApp.swift */; };
 		849CAB1A293AED400024BF1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB19293AED400024BF1B /* ContentView.swift */; };
 		849CAB1C293AED400024BF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CAB1B293AED400024BF1B /* Assets.xcassets */; };
 		849CAB1F293AED400024BF1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CAB1E293AED400024BF1B /* Preview Assets.xcassets */; };
@@ -56,6 +55,16 @@
 		849CABA5293ED1DE0024BF1B /* Model+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA4293ED1DE0024BF1B /* Model+Extension.swift */; };
 		849CABA7293ED6A40024BF1B /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA6293ED6A40024BF1B /* FavoritesViewModel.swift */; };
 		849CABA9293ED97E0024BF1B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA8293ED97E0024BF1B /* FavoriteButton.swift */; };
+		849CABAB293EEAD80024BF1B /* CollapsibleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAA293EEAD80024BF1B /* CollapsibleText.swift */; };
+		849CABAE293F670A0024BF1B /* BiometricHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAD293F670A0024BF1B /* BiometricHelper.swift */; };
+		849CABB0293F671F0024BF1B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAF293F671F0024BF1B /* SettingsViewModel.swift */; };
+		849CABB3293F67450024BF1B /* BiometricLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB2293F67450024BF1B /* BiometricLockView.swift */; };
+		849CABB5293F67530024BF1B /* BiometricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB4293F67530024BF1B /* BiometricViewModel.swift */; };
+		849CABB7293F67600024BF1B /* BiometricToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB6293F67600024BF1B /* BiometricToggleView.swift */; };
+		849CABB9293F691A0024BF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB8293F691A0024BF1B /* SceneDelegate.swift */; };
+		849CABBC293F6E120024BF1B /* Valet in Frameworks */ = {isa = PBXBuildFile; productRef = 849CABBB293F6E120024BF1B /* Valet */; };
+		849CABBE293F6E910024BF1B /* ValetKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABBD293F6E910024BF1B /* ValetKeys.swift */; };
+		849CABC1293F70470024BF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABC0293F70470024BF1B /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +86,6 @@
 
 /* Begin PBXFileReference section */
 		849CAB14293AED400024BF1B /* FitzTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitzTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		849CAB17293AED400024BF1B /* FitzTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitzTVApp.swift; sourceTree = "<group>"; };
 		849CAB19293AED400024BF1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		849CAB1B293AED400024BF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849CAB1E293AED400024BF1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -121,6 +129,16 @@
 		849CABA4293ED1DE0024BF1B /* Model+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Extension.swift"; sourceTree = "<group>"; };
 		849CABA6293ED6A40024BF1B /* FavoritesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		849CABA8293ED97E0024BF1B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		849CABAA293EEAD80024BF1B /* CollapsibleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleText.swift; sourceTree = "<group>"; };
+		849CABAD293F670A0024BF1B /* BiometricHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelper.swift; sourceTree = "<group>"; };
+		849CABAF293F671F0024BF1B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		849CABB2293F67450024BF1B /* BiometricLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricLockView.swift; sourceTree = "<group>"; };
+		849CABB4293F67530024BF1B /* BiometricViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricViewModel.swift; sourceTree = "<group>"; };
+		849CABB6293F67600024BF1B /* BiometricToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricToggleView.swift; sourceTree = "<group>"; };
+		849CABB8293F691A0024BF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		849CABBD293F6E910024BF1B /* ValetKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValetKeys.swift; sourceTree = "<group>"; };
+		849CABBF293F6F800024BF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		849CABC0293F70470024BF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +149,7 @@
 				849CAB82293C37C70024BF1B /* NukeUI in Frameworks */,
 				849CAB55293B864C0024BF1B /* Mocker in Frameworks */,
 				849CAB97293EC0720024BF1B /* Realm in Frameworks */,
+				849CABBC293F6E120024BF1B /* Valet in Frameworks */,
 				849CAB99293EC0720024BF1B /* RealmSwift in Frameworks */,
 				849CAB80293C37C70024BF1B /* Nuke in Frameworks */,
 			);
@@ -176,13 +195,16 @@
 		849CAB16293AED400024BF1B /* FitzTV */ = {
 			isa = PBXGroup;
 			children = (
+				849CABBF293F6F800024BF1B /* Info.plist */,
 				849CAB62293C19BB0024BF1B /* Data */,
 				849CAB61293C18D40024BF1B /* Modules */,
 				849CAB6F293C2D1F0024BF1B /* ViewComponents */,
-				849CAB17293AED400024BF1B /* FitzTVApp.swift */,
+				849CABAC293F66F70024BF1B /* Helpers */,
 				849CAB19293AED400024BF1B /* ContentView.swift */,
 				849CAB1B293AED400024BF1B /* Assets.xcassets */,
 				849CAB1D293AED400024BF1B /* Preview Content */,
+				849CABB8293F691A0024BF1B /* SceneDelegate.swift */,
+				849CABC0293F70470024BF1B /* AppDelegate.swift */,
 			);
 			path = FitzTV;
 			sourceTree = "<group>";
@@ -258,6 +280,7 @@
 		849CAB61293C18D40024BF1B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				849CABB1293F67330024BF1B /* Biometric */,
 				849CAB84293CCAB40024BF1B /* Settings */,
 				849CAB83293CCAAC0024BF1B /* Favorites */,
 				849CAB79293C332B0024BF1B /* Search */,
@@ -307,6 +330,7 @@
 				849CAB91293E30EA0024BF1B /* EpisodeRowView.swift */,
 				849CAB93293E698C0024BF1B /* PasscodeField.swift */,
 				849CABA8293ED97E0024BF1B /* FavoriteButton.swift */,
+				849CABAA293EEAD80024BF1B /* CollapsibleText.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -333,6 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				849CAB85293CCAFA0024BF1B /* SettingsView.swift */,
+				849CABAF293F671F0024BF1B /* SettingsViewModel.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -354,6 +379,25 @@
 				849CABA4293ED1DE0024BF1B /* Model+Extension.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		849CABAC293F66F70024BF1B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				849CABAD293F670A0024BF1B /* BiometricHelper.swift */,
+				849CABBD293F6E910024BF1B /* ValetKeys.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		849CABB1293F67330024BF1B /* Biometric */ = {
+			isa = PBXGroup;
+			children = (
+				849CABB2293F67450024BF1B /* BiometricLockView.swift */,
+				849CABB4293F67530024BF1B /* BiometricViewModel.swift */,
+				849CABB6293F67600024BF1B /* BiometricToggleView.swift */,
+			);
+			path = Biometric;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +422,7 @@
 				849CAB81293C37C70024BF1B /* NukeUI */,
 				849CAB96293EC0720024BF1B /* Realm */,
 				849CAB98293EC0720024BF1B /* RealmSwift */,
+				849CABBB293F6E120024BF1B /* Valet */,
 			);
 			productName = FitzTV;
 			productReference = 849CAB14293AED400024BF1B /* FitzTV.app */;
@@ -455,6 +500,7 @@
 				849CAB53293B864C0024BF1B /* XCRemoteSwiftPackageReference "Mocker" */,
 				849CAB7E293C37C70024BF1B /* XCRemoteSwiftPackageReference "Nuke" */,
 				849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */,
+				849CABBA293F6E120024BF1B /* XCRemoteSwiftPackageReference "Valet" */,
 			);
 			productRefGroup = 849CAB15293AED400024BF1B /* Products */;
 			projectDirPath = "";
@@ -506,31 +552,39 @@
 				849CAB8C293CCE530024BF1B /* ShowDetailViewModel.swift in Sources */,
 				849CAB86293CCAFA0024BF1B /* SettingsView.swift in Sources */,
 				849CAB75293C30200024BF1B /* ShowRowView.swift in Sources */,
+				849CABB5293F67530024BF1B /* BiometricViewModel.swift in Sources */,
 				849CAB6E293C29990024BF1B /* ShowListViewModel.swift in Sources */,
 				849CAB43293AF8C10024BF1B /* Models.swift in Sources */,
 				849CABA3293ED15C0024BF1B /* RealmRepository.swift in Sources */,
 				849CABA1293ED12A0024BF1B /* ModelProtocols.swift in Sources */,
 				849CAB9B293EC0980024BF1B /* FavoritesRepository.swift in Sources */,
 				849CAB1A293AED400024BF1B /* ContentView.swift in Sources */,
+				849CABAB293EEAD80024BF1B /* CollapsibleText.swift in Sources */,
+				849CABB9293F691A0024BF1B /* SceneDelegate.swift in Sources */,
 				849CAB9F293EC2990024BF1B /* StorableModels.swift in Sources */,
+				849CABC1293F70470024BF1B /* AppDelegate.swift in Sources */,
 				849CAB45293AFC7D0024BF1B /* URLSession+Request.swift in Sources */,
 				849CAB8E293CCE610024BF1B /* EpisodeDetailView.swift in Sources */,
+				849CABB3293F67450024BF1B /* BiometricLockView.swift in Sources */,
 				849CAB92293E30EA0024BF1B /* EpisodeRowView.swift in Sources */,
 				849CAB7B293C333B0024BF1B /* SearchViewModel.swift in Sources */,
+				849CABB0293F671F0024BF1B /* SettingsViewModel.swift in Sources */,
 				849CAB6A293C28BB0024BF1B /* ShowsListView.swift in Sources */,
 				849CAB73293C2FC70024BF1B /* ActivityIndicator.swift in Sources */,
+				849CABAE293F670A0024BF1B /* BiometricHelper.swift in Sources */,
 				849CABA9293ED97E0024BF1B /* FavoriteButton.swift in Sources */,
 				849CAB94293E698C0024BF1B /* PasscodeField.swift in Sources */,
 				849CAB71293C2D330024BF1B /* ErrorView.swift in Sources */,
 				849CAB6C293C28E70024BF1B /* SearchField.swift in Sources */,
 				849CAB7D293C340A0024BF1B /* SearchView.swift in Sources */,
 				849CAB88293CCB0E0024BF1B /* FavoritesView.swift in Sources */,
+				849CABBE293F6E910024BF1B /* ValetKeys.swift in Sources */,
 				849CAB66293C1A380024BF1B /* ShowRepository.swift in Sources */,
 				849CABA7293ED6A40024BF1B /* FavoritesViewModel.swift in Sources */,
 				849CAB68293C1C9D0024BF1B /* APIService.swift in Sources */,
 				849CAB8A293CCDD80024BF1B /* ShowDetailView.swift in Sources */,
+				849CABB7293F67600024BF1B /* BiometricToggleView.swift in Sources */,
 				849CABA5293ED1DE0024BF1B /* Model+Extension.swift in Sources */,
-				849CAB18293AED400024BF1B /* FitzTVApp.swift in Sources */,
 				849CAB90293CCE6E0024BF1B /* EpisodeDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +753,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = FitzTV/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "You will use your face and or fingerprint to safely unlock your FitzTV app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -729,7 +784,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = FitzTV/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "You will use your face and or fingerprint to safely unlock your FitzTV app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -889,6 +945,14 @@
 				kind = branch;
 			};
 		};
+		849CABBA293F6E120024BF1B /* XCRemoteSwiftPackageReference "Valet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Square/Valet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -916,6 +980,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		849CABBB293F6E120024BF1B /* Valet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849CABBA293F6E120024BF1B /* XCRemoteSwiftPackageReference "Valet" */;
+			productName = Valet;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -8,35 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var biometricViewModel: BiometricViewModel
     @State private var selectedTab = 0
 
     var body: some View {
-        TabView {
-            ShowListView()
-                .tabItem {
-                    Label("TV Shows", systemImage: "sparkles.tv")
-                    Text("TV Shows")
-                }
-                .tag(0)
+        //ZStack {
+            if biometricViewModel.isLocked {
+                BiometricLockView()
 
+            } else {
+                TabView {
+                    ShowListView()
+                        .tabItem {
+                            Label("TV Shows", systemImage: "sparkles.tv")
+                            Text("TV Shows")
+                        }
+                        .tag(0)
 
-            /*PasscodeField(handler: { code, completion in
-                print("Code: \(code)")
-            })*/
-            FavoritesView()
-                .tabItem {
-                    Label("Favorites", systemImage: "heart")
-                    Text("Favorites")
-                }
-                .tag(1)
+                    FavoritesView()
+                        .tabItem {
+                            Label("Favorites", systemImage: "heart")
+                            Text("Favorites")
+                        }
+                        .tag(1)
 
-            SettingsView()
-                .tabItem {
-                    Label("Settings", systemImage: "gearshape")
-                    Text("Settings")
-                }
-                .tag(2)
-        }
+                    if biometricViewModel.isSupported {
+                        SettingsView()
+                            .tabItem {
+                                Label("Settings", systemImage: "gearshape")
+                                Text("Settings")
+                            }
+                            .tag(2)
+                    }
+
+                }.globalErrorHandler()
+            }
+       // }
+
     }
 }
 
