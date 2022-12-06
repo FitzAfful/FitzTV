@@ -15,7 +15,6 @@ class ShowDetailViewModel: ObservableObject {
     @Published private(set) var isLoading = true
     @Published var show: Show
     @Published var seasons: [Season] = []
-    @Published var thrownError: Error? = nil
     @Published var selectedEpisode: Episode?
     @Published var isFavorited: Bool = false
 
@@ -39,7 +38,7 @@ class ShowDetailViewModel: ObservableObject {
             self.isLoading = false
         } catch {
             self.isLoading = false
-            thrownError = error
+            error.raiseGlobalAlert()
         }
     }
 
@@ -74,6 +73,15 @@ class ShowDetailViewModel: ObservableObject {
         return sub
     }
 
+    func getSchedule() -> String {
+        var sub = show.ended != nil ? "Aired every " : "Airs every "
+        if let schedule = show.schedule {
+            sub.append(schedule.days.joined(separator: " & "))
+            sub.append(" at " + schedule.time)
+        }
+        return sub
+    }
+
     func getRunningDate() -> String {
         var runningDate = ""
         if let premiered = show.premiered {
@@ -93,7 +101,7 @@ class ShowDetailViewModel: ObservableObject {
             try favRepo.insert(item: self.show)
             self.isFavorited = true
         } catch {
-            thrownError = error
+            error.raiseGlobalAlert()
         }
     }
 
@@ -102,12 +110,8 @@ class ShowDetailViewModel: ObservableObject {
             try favRepo.delete(item: self.show)
             self.isFavorited = false
         } catch {
-            thrownError = error
+            error.raiseGlobalAlert()
         }
-    }
-
-    func clearError() {
-        thrownError = nil
     }
 
 }

@@ -13,7 +13,6 @@ class ShowListViewModel: ObservableObject {
 
     @Published private(set) var isLoading = true
     @Published var shows: [Show] = []
-    @Published var thrownError: Error? = nil
     @Published var hasNextPage = false
 
     @Published private(set) var currentPage: Int = 0
@@ -34,7 +33,7 @@ class ShowListViewModel: ObservableObject {
             self.isLoading = false
         } catch {
             self.isLoading = false
-            thrownError = error
+            error.raiseGlobalAlert()
         }
     }
 
@@ -46,9 +45,4 @@ class ShowListViewModel: ObservableObject {
             }
         }
     }
-
-    func clearError() {
-        thrownError = nil
-    }
-
 }

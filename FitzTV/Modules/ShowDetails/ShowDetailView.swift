@@ -61,11 +61,23 @@ struct ShowDetailView: View {
                 }
                 .padding([.top, .horizontal])
 
-                Text(viewModel.show.summary.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil))
-                    .font(.system(size: 14))
-                    .lineSpacing(4)
-                    .foregroundColor(.gray)
-                    .padding()
+                CollapsableText(
+                    viewModel.show.summary.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil),
+                    lineLimit: 5
+                )
+
+                HStack {
+                    Image(systemName: "calendar")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 12, height: 12)
+                        .foregroundColor(.gray)
+
+                    Text(viewModel.getSchedule())
+                        .font(.system(size: 14)).bold()
+                        .foregroundColor(.gray)
+                        .frame(alignment: .leading)
+                }
 
                 HStack {
                     Image(systemName: "star.fill")

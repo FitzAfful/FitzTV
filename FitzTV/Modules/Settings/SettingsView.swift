@@ -8,10 +8,29 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject var biometricViewModel: BiometricViewModel
+
     var body: some View {
-        Text("Settings!")
+        NavigationView {
+            VStack {
+                BiometricLockToggleView()
+                    .padding()
+
+                Spacer()
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    VStack {
+                        Text("FitzTV")
+                    }
+                }
+            }
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
+
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {

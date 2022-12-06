@@ -24,23 +24,18 @@ import Foundation
 
     @Published private(set) var isSearching = false
     @Published var searchResults: [Show] = []
-    @Published var thrownError: Error? = nil
 
     @MainActor func searchForShow(query: String) async {
         do {
             self.searchResults = try await repo.searchShow(word: query)
         } catch {
-            thrownError = error
+            error.raiseGlobalAlert()
         }
     }
 
     @MainActor func clearShows() {
         isSearching = false
         searchResults = []
-    }
-
-    func clearError() {
-        thrownError = nil
     }
 
 }
