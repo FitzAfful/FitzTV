@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RealmSwift
 
 // MARK: - SearchResult
 struct SearchResult: Codable {
@@ -15,7 +16,7 @@ struct SearchResult: Codable {
 }
 
 // MARK: - Show
-struct Show: Codable, Equatable, Identifiable {
+struct Show: Codable, Equatable, Identifiable, Entity {
     static func == (lhs: Show, rhs: Show) -> Bool {
         lhs.id == rhs.id
     }
@@ -30,21 +31,25 @@ struct Show: Codable, Equatable, Identifiable {
     let premiered: String?
     let ended: String?
     let officialSite: String?
-    let schedule: Schedule
-    let rating: Rating
+    let schedule: Schedule?
+    let rating: Rating?
     let weight: Int
     let network: Network?
     let webChannel: WebChannel?
     let dvdCountry: Country?
-    let externals: Externals
-    let image: ShowImage
+    let externals: Externals?
+    let image: ShowImage?
     let summary: String
     let updated: Int
-    let links: Links
+    let links: Links?
 
     enum CodingKeys: String, CodingKey {
         case id, url, name, type, language, genres, status, runtime, averageRuntime, premiered, ended, officialSite, schedule, rating, weight, network, webChannel, dvdCountry, externals, image, summary, updated
         case links = "_links"
+    }
+
+    func toStorable() -> StorableShow {
+        return StorableShow(show: self)
     }
 }
 
@@ -69,19 +74,27 @@ struct Episode: Codable {
 }
 
 // MARK: - Externals
-struct Externals: Codable {
+struct Externals: Codable, Entity {
     let tvrage: Int?
     let thetvdb: Int?
     let imdb: String?
+
+    func toStorable() -> StorableExternals {
+        return StorableExternals(self)
+    }
 }
 
 // MARK: - Image
-struct ShowImage: Codable {
+struct ShowImage: Codable, Entity {
     let medium, original: String
+
+    func toStorable() -> StorableShowImage {
+        return StorableShowImage(self)
+    }
 }
 
 // MARK: - Links
-struct Links: Codable {
+struct Links: Codable, Entity {
     let linksSelf, previousEpisode, character, show: Link?
 
     enum CodingKeys: String, CodingKey {
@@ -90,43 +103,71 @@ struct Links: Codable {
         case character
         case show
     }
+
+    func toStorable() -> StorableLinks {
+        return StorableLinks(self)
+    }
 }
 
 // MARK: - Link
-struct Link: Codable {
+struct Link: Codable, Entity {
     let href: String
+
+    func toStorable() -> StorableLink {
+        return StorableLink(self)
+    }
 }
 
 // MARK: - Network
-struct Network: Codable {
+struct Network: Codable, Entity {
     let id: Int
     let name: String
     let country: Country?
     let officialSite: String?
+
+    func toStorable() -> StorableNetwork {
+        return StorableNetwork(self)
+    }
 }
 
 // MARK: - Country
-struct Country: Codable {
+struct Country: Codable, Entity {
     let name, code, timezone: String
+
+    func toStorable() -> StorableCountry {
+        return StorableCountry(self)
+    }
 }
 
 // MARK: - Rating
-struct Rating: Codable {
+struct Rating: Codable, Entity {
     let average: Double?
+
+    func toStorable() -> StorableRating {
+        return StorableRating(self)
+    }
 }
 
 // MARK: - Schedule
-struct Schedule: Codable {
+struct Schedule: Codable, Entity {
     let time: String
     let days: [String]
+
+    func toStorable() -> StorableSchedule {
+        return StorableSchedule(self)
+    }
 }
 
 // MARK: - WebChannel
-struct WebChannel: Codable {
+struct WebChannel: Codable, Entity {
     let id: Int
     let name: String
     let country: Country?
     let officialSite: String?
+
+    func toStorable() -> StorableWebChannel {
+        return StorableWebChannel(self)
+    }
 }
 
 // MARK: - Season
