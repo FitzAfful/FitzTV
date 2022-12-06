@@ -16,7 +16,7 @@ struct SearchResult: Codable {
 }
 
 // MARK: - Show
-struct Show: Codable, Equatable, Identifiable, Entity {
+struct Show: Codable, Equatable, Identifiable {
     static func == (lhs: Show, rhs: Show) -> Bool {
         lhs.id == rhs.id
     }
@@ -47,10 +47,6 @@ struct Show: Codable, Equatable, Identifiable, Entity {
         case id, url, name, type, language, genres, status, runtime, averageRuntime, premiered, ended, officialSite, schedule, rating, weight, network, webChannel, dvdCountry, externals, image, summary, updated
         case links = "_links"
     }
-
-    func toStorable() -> StorableShow {
-        return StorableShow(show: self)
-    }
 }
 
 // MARK: - Episode
@@ -74,27 +70,19 @@ struct Episode: Codable {
 }
 
 // MARK: - Externals
-struct Externals: Codable, Entity {
+struct Externals: Codable {
     let tvrage: Int?
     let thetvdb: Int?
     let imdb: String?
-
-    func toStorable() -> StorableExternals {
-        return StorableExternals(self)
-    }
 }
 
 // MARK: - Image
-struct ShowImage: Codable, Entity {
+struct ShowImage: Codable {
     let medium, original: String
-
-    func toStorable() -> StorableShowImage {
-        return StorableShowImage(self)
-    }
 }
 
 // MARK: - Links
-struct Links: Codable, Entity {
+struct Links: Codable {
     let linksSelf, previousEpisode, character, show: Link?
 
     enum CodingKeys: String, CodingKey {
@@ -103,71 +91,43 @@ struct Links: Codable, Entity {
         case character
         case show
     }
-
-    func toStorable() -> StorableLinks {
-        return StorableLinks(self)
-    }
 }
 
 // MARK: - Link
-struct Link: Codable, Entity {
+struct Link: Codable {
     let href: String
-
-    func toStorable() -> StorableLink {
-        return StorableLink(self)
-    }
 }
 
 // MARK: - Network
-struct Network: Codable, Entity {
+struct Network: Codable {
     let id: Int
     let name: String
     let country: Country?
     let officialSite: String?
-
-    func toStorable() -> StorableNetwork {
-        return StorableNetwork(self)
-    }
 }
 
 // MARK: - Country
-struct Country: Codable, Entity {
+struct Country: Codable {
     let name, code, timezone: String
-
-    func toStorable() -> StorableCountry {
-        return StorableCountry(self)
-    }
 }
 
 // MARK: - Rating
-struct Rating: Codable, Entity {
+struct Rating: Codable {
     let average: Double?
-
-    func toStorable() -> StorableRating {
-        return StorableRating(self)
-    }
 }
 
 // MARK: - Schedule
-struct Schedule: Codable, Entity {
+struct Schedule: Codable {
     let time: String
     let days: [String]
-
-    func toStorable() -> StorableSchedule {
-        return StorableSchedule(self)
-    }
 }
 
 // MARK: - WebChannel
-struct WebChannel: Codable, Entity {
+struct WebChannel: Codable {
     let id: Int
     let name: String
     let country: Country?
     let officialSite: String?
-
-    func toStorable() -> StorableWebChannel {
-        return StorableWebChannel(self)
-    }
 }
 
 // MARK: - Season
