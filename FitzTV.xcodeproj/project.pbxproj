@@ -47,6 +47,15 @@
 		849CAB90293CCE6E0024BF1B /* EpisodeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB8F293CCE6E0024BF1B /* EpisodeDetailViewModel.swift */; };
 		849CAB92293E30EA0024BF1B /* EpisodeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB91293E30EA0024BF1B /* EpisodeRowView.swift */; };
 		849CAB94293E698C0024BF1B /* PasscodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB93293E698C0024BF1B /* PasscodeField.swift */; };
+		849CAB97293EC0720024BF1B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 849CAB96293EC0720024BF1B /* Realm */; };
+		849CAB99293EC0720024BF1B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 849CAB98293EC0720024BF1B /* RealmSwift */; };
+		849CAB9B293EC0980024BF1B /* FavoritesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB9A293EC0980024BF1B /* FavoritesRepository.swift */; };
+		849CAB9F293EC2990024BF1B /* StorableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CAB9E293EC2990024BF1B /* StorableModels.swift */; };
+		849CABA1293ED12A0024BF1B /* ModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA0293ED12A0024BF1B /* ModelProtocols.swift */; };
+		849CABA3293ED15C0024BF1B /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA2293ED15C0024BF1B /* RealmRepository.swift */; };
+		849CABA5293ED1DE0024BF1B /* Model+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA4293ED1DE0024BF1B /* Model+Extension.swift */; };
+		849CABA7293ED6A40024BF1B /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA6293ED6A40024BF1B /* FavoritesViewModel.swift */; };
+		849CABA9293ED97E0024BF1B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA8293ED97E0024BF1B /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +114,13 @@
 		849CAB8F293CCE6E0024BF1B /* EpisodeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewModel.swift; sourceTree = "<group>"; };
 		849CAB91293E30EA0024BF1B /* EpisodeRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeRowView.swift; sourceTree = "<group>"; };
 		849CAB93293E698C0024BF1B /* PasscodeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeField.swift; sourceTree = "<group>"; };
+		849CAB9A293EC0980024BF1B /* FavoritesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRepository.swift; sourceTree = "<group>"; };
+		849CAB9E293EC2990024BF1B /* StorableModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorableModels.swift; sourceTree = "<group>"; };
+		849CABA0293ED12A0024BF1B /* ModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocols.swift; sourceTree = "<group>"; };
+		849CABA2293ED15C0024BF1B /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
+		849CABA4293ED1DE0024BF1B /* Model+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Extension.swift"; sourceTree = "<group>"; };
+		849CABA6293ED6A40024BF1B /* FavoritesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		849CABA8293ED97E0024BF1B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,8 @@
 			files = (
 				849CAB82293C37C70024BF1B /* NukeUI in Frameworks */,
 				849CAB55293B864C0024BF1B /* Mocker in Frameworks */,
+				849CAB97293EC0720024BF1B /* Realm in Frameworks */,
+				849CAB99293EC0720024BF1B /* RealmSwift in Frameworks */,
 				849CAB80293C37C70024BF1B /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +271,10 @@
 		849CAB62293C19BB0024BF1B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				849CAB9D293EC2640024BF1B /* Models */,
+				849CAB9C293EC09D0024BF1B /* Local */,
 				849CAB64293C19E20024BF1B /* Remote */,
 				849CAB63293C19DA0024BF1B /* Repository */,
-				849CAB42293AF8C10024BF1B /* Models.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -264,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				849CAB65293C1A380024BF1B /* ShowRepository.swift */,
+				849CAB9A293EC0980024BF1B /* FavoritesRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -286,6 +306,7 @@
 				849CAB74293C30200024BF1B /* ShowRowView.swift */,
 				849CAB91293E30EA0024BF1B /* EpisodeRowView.swift */,
 				849CAB93293E698C0024BF1B /* PasscodeField.swift */,
+				849CABA8293ED97E0024BF1B /* FavoriteButton.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -303,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				849CAB87293CCB0E0024BF1B /* FavoritesView.swift */,
+				849CABA6293ED6A40024BF1B /* FavoritesViewModel.swift */,
 			);
 			path = Favorites;
 			sourceTree = "<group>";
@@ -313,6 +335,25 @@
 				849CAB85293CCAFA0024BF1B /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		849CAB9C293EC09D0024BF1B /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				849CABA2293ED15C0024BF1B /* RealmRepository.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		849CAB9D293EC2640024BF1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				849CAB42293AF8C10024BF1B /* Models.swift */,
+				849CAB9E293EC2990024BF1B /* StorableModels.swift */,
+				849CABA0293ED12A0024BF1B /* ModelProtocols.swift */,
+				849CABA4293ED1DE0024BF1B /* Model+Extension.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +376,8 @@
 				849CAB54293B864C0024BF1B /* Mocker */,
 				849CAB7F293C37C70024BF1B /* Nuke */,
 				849CAB81293C37C70024BF1B /* NukeUI */,
+				849CAB96293EC0720024BF1B /* Realm */,
+				849CAB98293EC0720024BF1B /* RealmSwift */,
 			);
 			productName = FitzTV;
 			productReference = 849CAB14293AED400024BF1B /* FitzTV.app */;
@@ -411,6 +454,7 @@
 			packageReferences = (
 				849CAB53293B864C0024BF1B /* XCRemoteSwiftPackageReference "Mocker" */,
 				849CAB7E293C37C70024BF1B /* XCRemoteSwiftPackageReference "Nuke" */,
+				849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 849CAB15293AED400024BF1B /* Products */;
 			projectDirPath = "";
@@ -464,21 +508,28 @@
 				849CAB75293C30200024BF1B /* ShowRowView.swift in Sources */,
 				849CAB6E293C29990024BF1B /* ShowListViewModel.swift in Sources */,
 				849CAB43293AF8C10024BF1B /* Models.swift in Sources */,
+				849CABA3293ED15C0024BF1B /* RealmRepository.swift in Sources */,
+				849CABA1293ED12A0024BF1B /* ModelProtocols.swift in Sources */,
+				849CAB9B293EC0980024BF1B /* FavoritesRepository.swift in Sources */,
 				849CAB1A293AED400024BF1B /* ContentView.swift in Sources */,
+				849CAB9F293EC2990024BF1B /* StorableModels.swift in Sources */,
 				849CAB45293AFC7D0024BF1B /* URLSession+Request.swift in Sources */,
 				849CAB8E293CCE610024BF1B /* EpisodeDetailView.swift in Sources */,
 				849CAB92293E30EA0024BF1B /* EpisodeRowView.swift in Sources */,
 				849CAB7B293C333B0024BF1B /* SearchViewModel.swift in Sources */,
 				849CAB6A293C28BB0024BF1B /* ShowsListView.swift in Sources */,
 				849CAB73293C2FC70024BF1B /* ActivityIndicator.swift in Sources */,
+				849CABA9293ED97E0024BF1B /* FavoriteButton.swift in Sources */,
 				849CAB94293E698C0024BF1B /* PasscodeField.swift in Sources */,
 				849CAB71293C2D330024BF1B /* ErrorView.swift in Sources */,
 				849CAB6C293C28E70024BF1B /* SearchField.swift in Sources */,
 				849CAB7D293C340A0024BF1B /* SearchView.swift in Sources */,
 				849CAB88293CCB0E0024BF1B /* FavoritesView.swift in Sources */,
 				849CAB66293C1A380024BF1B /* ShowRepository.swift in Sources */,
+				849CABA7293ED6A40024BF1B /* FavoritesViewModel.swift in Sources */,
 				849CAB68293C1C9D0024BF1B /* APIService.swift in Sources */,
 				849CAB8A293CCDD80024BF1B /* ShowDetailView.swift in Sources */,
+				849CABA5293ED1DE0024BF1B /* Model+Extension.swift in Sources */,
 				849CAB18293AED400024BF1B /* FitzTVApp.swift in Sources */,
 				849CAB90293CCE6E0024BF1B /* EpisodeDetailViewModel.swift in Sources */,
 			);
@@ -830,6 +881,14 @@
 				minimumVersion = 11.0.0;
 			};
 		};
+		849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -847,6 +906,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 849CAB7E293C37C70024BF1B /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeUI;
+		};
+		849CAB96293EC0720024BF1B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		849CAB98293EC0720024BF1B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849CAB95293EC0720024BF1B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
