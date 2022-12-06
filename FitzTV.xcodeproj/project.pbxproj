@@ -65,6 +65,7 @@
 		849CABBC293F6E120024BF1B /* Valet in Frameworks */ = {isa = PBXBuildFile; productRef = 849CABBB293F6E120024BF1B /* Valet */; };
 		849CABBE293F6E910024BF1B /* ValetKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABBD293F6E910024BF1B /* ValetKeys.swift */; };
 		849CABC1293F70470024BF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABC0293F70470024BF1B /* AppDelegate.swift */; };
+		849CABC3293F763D0024BF1B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 849CABC2293F763D0024BF1B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		849CABBD293F6E910024BF1B /* ValetKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValetKeys.swift; sourceTree = "<group>"; };
 		849CABBF293F6F800024BF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		849CABC0293F70470024BF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849CABC2293F763D0024BF1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		849CAB0B293AED400024BF1B = {
 			isa = PBXGroup;
 			children = (
+				849CABC2293F763D0024BF1B /* README.md */,
 				849CAB16293AED400024BF1B /* FitzTV */,
 				849CAB27293AED400024BF1B /* FitzTVTests */,
 				849CAB31293AED400024BF1B /* FitzTVUITests */,
@@ -518,6 +521,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849CABC3293F763D0024BF1B /* README.md in Resources */,
 				849CAB1F293AED400024BF1B /* Preview Assets.xcassets in Resources */,
 				849CAB1C293AED400024BF1B /* Assets.xcassets in Resources */,
 			);
