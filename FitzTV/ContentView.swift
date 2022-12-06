@@ -20,9 +20,10 @@ struct ContentView: View {
                 .tag(0)
 
 
-            PasscodeField(handler: { code, completion in
+            /*PasscodeField(handler: { code, completion in
                 print("Code: \(code)")
-            })
+            })*/
+            FavoritesView()
                 .tabItem {
                     Label("Favorites", systemImage: "heart")
                     Text("Favorites")

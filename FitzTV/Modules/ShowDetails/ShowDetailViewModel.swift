@@ -6,18 +6,23 @@
 //
 
 import Foundation
+import Combine
 
 class ShowDetailViewModel: ObservableObject {
-    var repo: ShowRepository = ShowRepository()
+    private var repo = ShowRepository()
+    private var favRepo = FavoritesRepository()
 
     @Published private(set) var isLoading = true
     @Published var show: Show
     @Published var seasons: [Season] = []
     @Published var thrownError: Error? = nil
     @Published var selectedEpisode: Episode?
+    @Published var isFavorited: Bool = false
+
 
     init(show: Show) {
         self.show = show
+        self.isFavorited = favRepo.exists(item: show)
     }
 
     func loadData() {
@@ -54,7 +59,7 @@ class ShowDetailViewModel: ObservableObject {
 
     func getSubTitle() -> String {
         var sub = ""
-        if let rating = show.rating.average {
+        if let rating = show.rating?.average {
             sub = String(format: "%.1f", rating) + " • "
         }
 
@@ -81,6 +86,24 @@ class ShowDetailViewModel: ObservableObject {
             }
         }
         return runningDate
+    }
+
+    func addToFavorites() {
+        do {
+            try favRepo.insert(item: self.show)
+            self.isFavorited = true
+        } catch {
+            thrownError = error
+        }
+    }
+
+    func removeFromFavorites() {
+        do {
+            try favRepo.delete(item: self.show)
+            self.isFavorited = false
+        } catch {
+            thrownError = error
+        }
     }
 
     func clearError() {

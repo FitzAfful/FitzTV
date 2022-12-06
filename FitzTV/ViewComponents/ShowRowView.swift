@@ -14,7 +14,7 @@ struct ShowRowView: View {
     var body: some View {
         HStack {
 
-            if let imageUrl = show.image.medium, let url = URL(string: imageUrl) {
+            if let imageUrl = show.image?.medium, let url = URL(string: imageUrl) {
                 LazyImage(url: url, resizingMode: .aspectFill)
                     .frame(width: 67.5, height: 100)
                     .cornerRadius(5)

@@ -11,13 +11,12 @@ import NukeUI
 struct ShowDetailView: View {
     @EnvironmentObject var viewModel: ShowDetailViewModel
     @State private var presentEpisode = false
-    let heights = stride(from: 0.6, through: 0.8, by: 0.2).map { PresentationDetent.fraction($0)
-    }
+    let heights = stride(from: 0.6, through: 0.8, by: 0.2).map { PresentationDetent.fraction($0)}
     
     var body: some View {
         ScrollView {
             VStack {
-                if let imageUrl = viewModel.show.image.original, let url = URL(string: imageUrl) {
+                if let imageUrl = viewModel.show.image?.original, let url = URL(string: imageUrl) {
                     LazyImage(url: url, resizingMode: .aspectFill)
                         .frame(height: 400)
                         .mask(LinearGradient(gradient: Gradient(stops: [
@@ -31,7 +30,7 @@ struct ShowDetailView: View {
                 }
 
                 HStack {
-                    if let imageUrl = viewModel.show.image.medium, let url = URL(string: imageUrl) {
+                    if let imageUrl = viewModel.show.image?.medium, let url = URL(string: imageUrl) {
                         LazyImage(url: url, resizingMode: .aspectFill)
                             .frame(width: 67.5, height: 100)
                             .cornerRadius(5)
@@ -57,7 +56,6 @@ struct ShowDetailView: View {
                             .font(.system(size: 14))
                             .foregroundColor(.black.opacity(0.75))
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .lineSpacing(4)
 
                     }
                 }
@@ -81,9 +79,10 @@ struct ShowDetailView: View {
                         .foregroundColor(.gray)
                         .frame(alignment: .leading)
                 }
-                .padding(8)
-                .background(Color.gray.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 5))
+
+                FavoriteButton(isFavorited: viewModel.isFavorited) { isFavorited in
+                    isFavorited ? viewModel.removeFromFavorites() : viewModel.addToFavorites()
+                }
 
                 LazyVStack {
                     ForEach(viewModel.seasons, id: \.id) { season in
