@@ -1,0 +1,608 @@
+[
+  {
+    "score" : 0.90576920000000005,
+    "show" : {
+      "runtime" : 30,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/139/girls",
+      "weight" : 99,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/31/78286.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg"
+      },
+      "ended" : "2017-04-16",
+      "summary" : "<p>This Emmy winning series is a comic look at the assorted humiliations and rare triumphs of a group of girls in their 20s.</p>",
+      "externals" : {
+        "thetvdb" : 220411,
+        "imdb" : "tt1723816",
+        "tvrage" : 30124
+      },
+      "schedule" : {
+        "days" : [
+          "Sunday"
+        ],
+        "time" : "22:00"
+      },
+      "averageRuntime" : 30,
+      "name" : "Girls",
+      "updated" : 1611310521,
+      "type" : "Scripted",
+      "id" : 139,
+      "officialSite" : "http://www.hbo.com/girls",
+      "premiered" : "2012-04-15",
+      "network" : {
+        "id" : 8,
+        "country" : {
+          "name" : "United States",
+          "timezone" : "America/New_York",
+          "code" : "US"
+        },
+        "officialSite" : "https://www.hbo.com/",
+        "name" : "HBO"
+      },
+      "genres" : [
+        "Drama",
+        "Romance"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/1079686"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/139"
+        }
+      },
+      "rating" : {
+        "average" : 6.5999999999999996
+      }
+    }
+  },
+  {
+    "score" : 0.89218140000000001,
+    "show" : {
+      "runtime" : 41,
+      "language" : "Mongolian",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/41734/girls",
+      "weight" : 73,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/191/478539.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/191/478539.jpg"
+      },
+      "ended" : null,
+      "summary" : null,
+      "externals" : {
+        "thetvdb" : null,
+        "imdb" : "tt8709752",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+          "Thursday"
+        ],
+        "time" : ""
+      },
+      "averageRuntime" : null,
+      "name" : "GIRLS",
+      "updated" : 1632080861,
+      "type" : "Scripted",
+      "id" : 41734,
+      "officialSite" : null,
+      "premiered" : null,
+      "network" : {
+        "id" : 1672,
+        "country" : {
+          "name" : "Mongolia",
+          "timezone" : "Asia/Ulaanbaatar",
+          "code" : "MN"
+        },
+        "officialSite" : null,
+        "name" : "UBS"
+      },
+      "genres" : [
+        "Comedy"
+      ],
+      "_links" : {
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/41734"
+        }
+      },
+      "rating" : {
+        "average" : null
+      }
+    }
+  },
+  {
+    "score" : 0.69850040000000002,
+    "show" : {
+      "runtime" : null,
+      "language" : "English",
+      "status" : "To Be Determined",
+      "url" : "https://www.tvmaze.com/shows/49334/shining-girls",
+      "weight" : 98,
+      "webChannel" : {
+        "id" : 310,
+        "country" : null,
+        "officialSite" : "https://tv.apple.com/",
+        "name" : "Apple TV+"
+      },
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/406/1015813.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/406/1015813.jpg"
+      },
+      "ended" : null,
+      "summary" : "<p><b>Shining Girls</b> is a metaphysical thriller, which follows a Chicago reporter who survived a brutal assault only to find her reality shifting as she hunts down her attacker.</p>",
+      "externals" : {
+        "thetvdb" : 385810,
+        "imdb" : "tt2953250",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+          "Friday"
+        ],
+        "time" : ""
+      },
+      "averageRuntime" : 49,
+      "name" : "Shining Girls",
+      "updated" : 1654448061,
+      "type" : "Scripted",
+      "id" : 49334,
+      "officialSite" : "https://tv.apple.com/show/shining-girls/umc.cmc.22xs4xobsimzy5qqdif0rhmdy",
+      "premiered" : "2022-04-29",
+      "network" : null,
+      "genres" : [
+        "Crime",
+        "Thriller",
+        "Supernatural"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2272289"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/49334"
+        }
+      },
+      "rating" : {
+        "average" : 7.5
+      }
+    }
+  },
+  {
+    "score" : 0.69841900000000001,
+    "show" : {
+      "runtime" : 60,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/525/gilmore-girls",
+      "weight" : 98,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/4/11308.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/4/11308.jpg"
+      },
+      "ended" : "2007-05-15",
+      "summary" : "<p><b>Gilmore Girls</b> is a drama centering around the relationship between a thirtysomething single mother and her teen daughter living in Stars Hollow, Connecticut.</p>",
+      "externals" : {
+        "thetvdb" : 76568,
+        "imdb" : "tt0238784",
+        "tvrage" : 3683
+      },
+      "schedule" : {
+        "days" : [
+          "Tuesday"
+        ],
+        "time" : "21:00"
+      },
+      "averageRuntime" : 60,
+      "name" : "Gilmore Girls",
+      "updated" : 1618158592,
+      "type" : "Scripted",
+      "id" : 525,
+      "officialSite" : null,
+      "premiered" : "2000-10-05",
+      "network" : {
+        "id" : 5,
+        "country" : {
+          "name" : "United States",
+          "timezone" : "America/New_York",
+          "code" : "US"
+        },
+        "officialSite" : "https://www.cwtv.com/",
+        "name" : "The CW"
+      },
+      "genres" : [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/47639"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/525"
+        }
+      },
+      "rating" : {
+        "average" : 8.1999999999999993
+      }
+    }
+  },
+  {
+    "score" : 0.69800793999999999,
+    "show" : {
+      "runtime" : 60,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/23542/good-girls",
+      "weight" : 97,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/297/744253.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/297/744253.jpg"
+      },
+      "ended" : "2021-07-22",
+      "summary" : "<p><b>Good Girls</b> follows three \"good girl\" suburban wives and mothers who suddenly find themselves in desperate circumstances and decide to stop playing it safe, and risk everything to take their power back.</p>",
+      "externals" : {
+        "thetvdb" : 328577,
+        "imdb" : "tt6474378",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+          "Thursday"
+        ],
+        "time" : "21:00"
+      },
+      "averageRuntime" : 60,
+      "name" : "Good Girls",
+      "updated" : 1669208118,
+      "type" : "Scripted",
+      "id" : 23542,
+      "officialSite" : "https://www.nbc.com/good-girls",
+      "premiered" : "2018-02-26",
+      "network" : {
+        "id" : 1,
+        "country" : {
+          "name" : "United States",
+          "timezone" : "America/New_York",
+          "code" : "US"
+        },
+        "officialSite" : "https://www.nbc.com/",
+        "name" : "NBC"
+      },
+      "genres" : [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2108575"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/23542"
+        }
+      },
+      "rating" : {
+        "average" : 7.2000000000000002
+      }
+    }
+  },
+  {
+    "score" : 0.69792500000000002,
+    "show" : {
+      "runtime" : null,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/33320/derry-girls",
+      "weight" : 97,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/402/1007479.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007479.jpg"
+      },
+      "ended" : "2022-05-18",
+      "summary" : "<p>16-year-old Erin Quinn lives with her uncompromising mother, her long-suffering father and the fearsome ‘Granda Joe', a man whose love for his daughters and granddaughters is surpassed only by his contempt for his son-in-law.</p><p>It's the early 90s, and Erin is used to seeing her country on the nightly news and speaking in acronyms (The IRA, The UDA, The RUC). This is a time of armed police in armoured Land Rovers and British Army check points. But it's also the time of Murder She Wrote, The Cranberries, MJ and Lisa Marie, Doc Martens, bomber jackets, The X Files, Nirvana and Wayne's World. And while The Troubles may hang over her home town, Erin has troubles of her own</p>",
+      "externals" : {
+        "thetvdb" : 338903,
+        "imdb" : "tt7120662",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+
+        ],
+        "time" : ""
+      },
+      "averageRuntime" : 33,
+      "name" : "Derry Girls",
+      "updated" : 1665155002,
+      "type" : "Scripted",
+      "id" : 33320,
+      "officialSite" : "http://www.channel4.com/programmes/derry-girls",
+      "premiered" : "2018-01-04",
+      "network" : {
+        "id" : 45,
+        "country" : {
+          "name" : "United Kingdom",
+          "timezone" : "Europe/London",
+          "code" : "GB"
+        },
+        "officialSite" : "https://www.channel4.com/",
+        "name" : "Channel 4"
+      },
+      "genres" : [
+        "Comedy"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2323336"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/33320"
+        }
+      },
+      "rating" : {
+        "average" : 8.0999999999999996
+      }
+    }
+  },
+  {
+    "score" : 0.6977582,
+    "show" : {
+      "runtime" : null,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/42986/paper-girls",
+      "weight" : 97,
+      "webChannel" : {
+        "id" : 3,
+        "country" : null,
+        "officialSite" : "https://www.primevideo.com",
+        "name" : "Prime Video"
+      },
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/417/1043587.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/417/1043587.jpg"
+      },
+      "ended" : "2022-07-29",
+      "summary" : "<p><b>Paper Girls </b>follows four young girls who, while out delivering papers on the morning after Halloween in 1988, become unwittingly caught in a conflict between warring factions of time-travelers, sending them on an adventure through time that will save the world. As they travel between our present, the past, and the future — they encounter future versions of themselves and now must choose to embrace or reject their fate. An emotional adventure in which the girls and the women they eventually become are tough, their friendships are authentic, and their journey through time is epic.</p>",
+      "externals" : {
+        "thetvdb" : 368187,
+        "imdb" : "tt10623646",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+
+        ],
+        "time" : ""
+      },
+      "averageRuntime" : 44,
+      "name" : "Paper Girls",
+      "updated" : 1663799366,
+      "type" : "Scripted",
+      "id" : 42986,
+      "officialSite" : "https://www.primevideo.com/detail/0SXAIJ5V3UWT5NQ8O0DV44N2F4/",
+      "premiered" : "2022-07-29",
+      "network" : null,
+      "genres" : [
+        "Drama",
+        "Science-Fiction"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2342540"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/42986"
+        }
+      },
+      "rating" : {
+        "average" : 6.5999999999999996
+      }
+    }
+  },
+  {
+    "score" : 0.69602980000000003,
+    "show" : {
+      "runtime" : 60,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/1073/bomb-girls",
+      "weight" : 93,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/7/17549.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/7/17549.jpg"
+      },
+      "ended" : "2013-04-29",
+      "summary" : "<p>Set in the 1940s, <b>Bomb Girls</b> tells the remarkable stories of the women who risked their lives in a munitions factory building bombs for the Allied forces fighting on the European front. The series delves into the lives of these exceptional women – peers, friends and rivals – who find themselves thrust into new worlds and changed profoundly as they are liberated from their home and social restrictions.</p>",
+      "externals" : {
+        "thetvdb" : 254378,
+        "imdb" : "tt1955311",
+        "tvrage" : 30600
+      },
+      "schedule" : {
+        "days" : [
+          "Monday"
+        ],
+        "time" : "20:00"
+      },
+      "averageRuntime" : 60,
+      "name" : "Bomb Girls",
+      "updated" : 1592496010,
+      "type" : "Scripted",
+      "id" : 1073,
+      "officialSite" : null,
+      "premiered" : "2012-01-04",
+      "network" : {
+        "id" : 67,
+        "country" : {
+          "name" : "Canada",
+          "timezone" : "America/Halifax",
+          "code" : "CA"
+        },
+        "officialSite" : null,
+        "name" : "Global"
+      },
+      "genres" : [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/108024"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/1073"
+        }
+      },
+      "rating" : {
+        "average" : 7.9000000000000004
+      }
+    }
+  },
+  {
+    "score" : 0.69557964999999999,
+    "show" : {
+      "runtime" : 60,
+      "language" : "English",
+      "status" : "Ended",
+      "url" : "https://www.tvmaze.com/shows/27894/three-girls",
+      "weight" : 92,
+      "webChannel" : null,
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/138/347202.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/138/347202.jpg"
+      },
+      "ended" : "2017-05-18",
+      "summary" : "<p><b>Three Girls</b> tells the true story of three of the children who were victims in the 2012 grooming and sex trafficking case in Rochdale.</p><p>Holly is new to Rochdale and keen to make friends and fit in. She finds herself drawn into a world she cannot escape, despite her pleas for help. It's a world that is all too familiar to sexual health worker Sara, who has been recording and reporting cases of child abuse for years.</p>",
+      "externals" : {
+        "thetvdb" : 327999,
+        "imdb" : "tt6835252",
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "time" : "21:00"
+      },
+      "averageRuntime" : 60,
+      "name" : "Three Girls",
+      "updated" : 1513509678,
+      "type" : "Scripted",
+      "id" : 27894,
+      "officialSite" : "http://www.bbc.co.uk/programmes/b08rgd5n",
+      "premiered" : "2017-05-16",
+      "network" : {
+        "id" : 12,
+        "country" : {
+          "name" : "United Kingdom",
+          "timezone" : "Europe/London",
+          "code" : "GB"
+        },
+        "officialSite" : "https://www.bbc.co.uk/bbcone",
+        "name" : "BBC One"
+      },
+      "genres" : [
+        "Drama"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/1164038"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/27894"
+        }
+      },
+      "rating" : {
+        "average" : 7.7000000000000002
+      }
+    }
+  },
+  {
+    "score" : 0.69530594000000001,
+    "show" : {
+      "runtime" : null,
+      "language" : "English",
+      "status" : "Running",
+      "url" : "https://www.tvmaze.com/shows/32087/chicken-girls",
+      "weight" : 91,
+      "webChannel" : {
+        "id" : 274,
+        "country" : {
+          "name" : "United States",
+          "timezone" : "America/New_York",
+          "code" : "US"
+        },
+        "officialSite" : null,
+        "name" : "Brat"
+      },
+      "dvdCountry" : null,
+      "image" : {
+        "original" : "https://static.tvmaze.com/uploads/images/original_untouched/137/344365.jpg",
+        "medium" : "https://static.tvmaze.com/uploads/images/medium_portrait/137/344365.jpg"
+      },
+      "ended" : null,
+      "summary" : "<p>Rhyme and her friends — known by their 'ship name, \"The Chicken Girls\" — have been dancing together forever. But this year, everything's changing...</p>",
+      "externals" : {
+        "thetvdb" : 339854,
+        "imdb" : null,
+        "tvrage" : null
+      },
+      "schedule" : {
+        "days" : [
+          "Tuesday"
+        ],
+        "time" : "15:00"
+      },
+      "averageRuntime" : 13,
+      "name" : "Chicken Girls",
+      "updated" : 1669831891,
+      "type" : "Scripted",
+      "id" : 32087,
+      "officialSite" : "https://www.youtube.com/playlist?list=PLVewHiZp3_LPhqzbcZFmS3iuDm9HymTsy",
+      "premiered" : "2017-09-05",
+      "network" : null,
+      "genres" : [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "_links" : {
+        "previousepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2436319"
+        },
+        "nextepisode" : {
+          "href" : "https://api.tvmaze.com/episodes/2440303"
+        },
+        "self" : {
+          "href" : "https://api.tvmaze.com/shows/32087"
+        }
+      },
+      "rating" : {
+        "average" : 5.5999999999999996
+      }
+    }
+  }
+]
