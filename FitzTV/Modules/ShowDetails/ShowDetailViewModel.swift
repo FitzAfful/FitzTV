@@ -74,7 +74,7 @@ class ShowDetailViewModel: ObservableObject {
     }
 
     func getSchedule() -> String {
-        var sub = show.ended != nil ? "Aired every " : "Airs every "
+        var sub = show.ended != nil ? "Aired on " : "Airs on "
         if let schedule = show.schedule {
             sub.append(schedule.days.joined(separator: " & "))
             sub.append(" at " + schedule.time)
