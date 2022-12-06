@@ -57,7 +57,6 @@
 		849CABA9293ED97E0024BF1B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABA8293ED97E0024BF1B /* FavoriteButton.swift */; };
 		849CABAB293EEAD80024BF1B /* CollapsibleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAA293EEAD80024BF1B /* CollapsibleText.swift */; };
 		849CABAE293F670A0024BF1B /* BiometricHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAD293F670A0024BF1B /* BiometricHelper.swift */; };
-		849CABB0293F671F0024BF1B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABAF293F671F0024BF1B /* SettingsViewModel.swift */; };
 		849CABB3293F67450024BF1B /* BiometricLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB2293F67450024BF1B /* BiometricLockView.swift */; };
 		849CABB5293F67530024BF1B /* BiometricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB4293F67530024BF1B /* BiometricViewModel.swift */; };
 		849CABB7293F67600024BF1B /* BiometricToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CABB6293F67600024BF1B /* BiometricToggleView.swift */; };
@@ -132,7 +131,6 @@
 		849CABA8293ED97E0024BF1B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		849CABAA293EEAD80024BF1B /* CollapsibleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleText.swift; sourceTree = "<group>"; };
 		849CABAD293F670A0024BF1B /* BiometricHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelper.swift; sourceTree = "<group>"; };
-		849CABAF293F671F0024BF1B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		849CABB2293F67450024BF1B /* BiometricLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricLockView.swift; sourceTree = "<group>"; };
 		849CABB4293F67530024BF1B /* BiometricViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricViewModel.swift; sourceTree = "<group>"; };
 		849CABB6293F67600024BF1B /* BiometricToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricToggleView.swift; sourceTree = "<group>"; };
@@ -360,7 +358,6 @@
 			isa = PBXGroup;
 			children = (
 				849CAB85293CCAFA0024BF1B /* SettingsView.swift */,
-				849CABAF293F671F0024BF1B /* SettingsViewModel.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -572,7 +569,6 @@
 				849CABB3293F67450024BF1B /* BiometricLockView.swift in Sources */,
 				849CAB92293E30EA0024BF1B /* EpisodeRowView.swift in Sources */,
 				849CAB7B293C333B0024BF1B /* SearchViewModel.swift in Sources */,
-				849CABB0293F671F0024BF1B /* SettingsViewModel.swift in Sources */,
 				849CAB6A293C28BB0024BF1B /* ShowsListView.swift in Sources */,
 				849CAB73293C2FC70024BF1B /* ActivityIndicator.swift in Sources */,
 				849CABAE293F670A0024BF1B /* BiometricHelper.swift in Sources */,
